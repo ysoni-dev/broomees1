@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:7000';
+const baseURL = 'https://broomees1.vercel.app/';
 const api = axios.create({
   baseURL,
 });
